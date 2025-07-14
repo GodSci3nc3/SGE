@@ -1,0 +1,17 @@
+# Ignorar archivos temporales
+*.log
+*.tmp
+packge-lock.json
+packge.json
+# Ignorar carpetas
+node_modules/
+dist/
+.env
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar todo el contenido de una carpeta excepto un archivo
+secret-folder/*
+!secret-folder/keep-this.txt
